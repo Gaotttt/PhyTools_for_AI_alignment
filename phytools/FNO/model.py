@@ -10,7 +10,7 @@ from torch.nn.parallel import DistributedDataParallel as DDP
 
 # Read the configuration
 config_name = 'default'
-pipe = ConfigPipeline([YamlConfig('./default_config.yaml', config_name='default', config_folder='../config'),
+pipe = ConfigPipeline([YamlConfig('./FNO.yaml', config_name='default', config_folder='../config'),
                        ArgparseConfig(infer_types=True, config_name=None, config_file=None),
                        YamlConfig(config_folder='../config')
                       ])
