@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 from timm.models.layers import DropPath
 from network.AFNO_Block import AFNO1D, Mlp
 
-class AFNO_Block(nn.Module):
+class AFNO(nn.Module):
     def __init__(
             self,
             dim,
@@ -52,6 +52,6 @@ class AFNO_Block(nn.Module):
 
 initi = torch.zeros(20,50,64)
 input = initi.transpose(1,0)
-afno = AFNO_Block(dim=64)
+afno = AFNO(dim=64)
 output = afno(input)
 print(output.size())
