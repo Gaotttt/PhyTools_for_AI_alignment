@@ -4,6 +4,8 @@ from phytools.PDENet.model import PDENet as Net
 # from phytools.PDENet2.model import PDENet2 as Net
 # from phytools.FNO.model import FNO as Net
 # from phytools.AFNO.model import AFNO as Net
+# from phytools.ODENet.model import ODENet as Net
+# from phytools.ODENet.model_mnist import ODENet as Net
 
 
 def parse_args():
