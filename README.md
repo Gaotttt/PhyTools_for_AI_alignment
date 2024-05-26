@@ -45,3 +45,12 @@ This project aims to provide a convenient physical information embedding tool li
 - Ricky T. Q. Chen, Yulia Rubanova, Jesse Bettencourt, David K. Duvenaud
 - NeurIPS 2018
 - [ [PDF](https://proceedings.neurips.cc/paper_files/paper/2018/file/69386f6bb1dfed68692a24c8686939b9-Paper.pdf) | [bibtex](https://proceedings.neurips.cc/paper_files/paper/2018/file/69386f6bb1dfed68692a24c8686939b9-Bibtex.bib) ]
+
+
+### If you use the code in '/PhyTools/loss-embedding/DeepMod', please cite:
+
+**DeepMoD: Deep learning for model discovery in noisy data** 
+
+- Both, Gert-Jan, et al. 
+- Journal of Computational Physics 2021
+- [ [PDF](https://www.sciencedirect.com/science/article/pii/S0021999120307592) | [bibtex](https://scholar.googleusercontent.com/scholar.bib?q=info:Q4z6DBQoocwJ:scholar.google.com/&output=citation&scisdr=ClHXTf4TEOmtjuIKF1Q:AFWwaeYAAAAAZlMMD1Qz9DynR0afRcI1_v4x_5Q&scisig=AFWwaeYAAAAAZlMMDy0u7v6m5AgGvD5jP-HYz1o&scisf=4&ct=citation&cd=-1&hl=en) ]
